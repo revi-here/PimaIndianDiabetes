@@ -29,7 +29,7 @@ of these instances from a larger database. In particular, all patients here are 
 ## 1.Visualization of the different features.  
  
 ![Features](images/distplot.png 'Features')  
-***Conclusion***  
+ 
 From the above plots, we see that there are 0 in some fields which are impossible to occur like BloodPressure, Glucose, Insulin.  
 1.Insulin and SkinThickness have around 200-300 data with 0. We replace the 0 with average of the fields respectively.  
 2.Glucose and BMI have way few(less than 10%) with ).So we ignore them in the data .  
@@ -44,7 +44,10 @@ This clearly shows that value of Glucose has some influence on the Outcome varia
 
 ## Diabetic Count across different age groups.  
 ![Diabetic Count](images/diabetic_count.png 'Diabetic Count')   
-
+<b>Women in the age group 30-50 have higher count of diabetics.  
+Young women in the age 21-30 has a low percentage(less than 30%) of diabetics dignosis.  
+Women over the age 70 cannot be analyzed because of almost no supporting data.(only 1 available)</b>
+  
 ## Average measures across different age groups.   
 ![Average measures](images/average_agegroup.png 'Average measures')   
 <b>BMI, BloodPressure, Glucose and all other variables except Insulin seems to be consistent with age.  
