@@ -46,6 +46,9 @@ This clearly shows that value of Glucose has some influence on the Outcome varia
 
 ## Average measures across different age groups.   
 ![Average measures](images/average_agegroup.png 'Average measures')   
+<b>BMI, BloodPressure, Glucose and all other variables except Insulin seems to be consistent with age.  
+Insulin apike  is clearly visible with the age group 51-60.  
+</b>
 
 # Final Conclusion.   
 <b>Based on our analysis, we see that  
